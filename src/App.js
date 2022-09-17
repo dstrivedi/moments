@@ -7,7 +7,7 @@ import Main from './components/main/Main.js';
 
 export default function App() {
   return (
-    <div className="body">
+    <div className="app">
       <Header />
       <Main />
       <Footer />

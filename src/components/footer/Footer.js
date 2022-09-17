@@ -1,9 +1,14 @@
 import React from 'react';
-
+import './Footer.css';
 const Footer = () => {
   return (
     <div className="footer">
-      &#169; This Calculator belongs to Drashti Trivedi
+      <div className="footer-info">
+        &#169; This site belongs to{' '}
+        <a className="owner" href="">
+          Drashti Trivedi
+        </a>
+      </div>
     </div>
   );
 };

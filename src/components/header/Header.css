@@ -1,3 +1,9 @@
-headerr {
-  flex: 1;
+.header {
+  flex: 2;
+  /* border: 1px solid black; */
+}
+
+h1 {
+  font-family: cursive;
+  padding-left: 10px;
 }
