@@ -3,7 +3,10 @@ import './Header.css';
 const Header = () => {
   return (
     <div className="header">
-      <h1>Moments</h1>
+      <div className="header-title">
+        <h1>Moments</h1>
+        <span>Digital diary</span>
+      </div>
     </div>
   );
 };

@@ -3,7 +3,12 @@
   /* border: 1px solid black; */
 }
 
-h1 {
+.header-title {
   font-family: cursive;
   padding-left: 10px;
+  line-height: 2px;
+}
+
+.header-title span {
+  font-size: 15px;
 }
